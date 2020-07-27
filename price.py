@@ -20,7 +20,7 @@ class MainPage(webapp2.RequestHandler):
         self.response.headers["Content-Type"] = "text/html"
         self.response.write("""
           <html>
-            <head><title>Temperature Converter Test Change</title></head>
+            <head><title>Discount Price Calculator</title></head>
             <body>
               <form action="/" method="get">
                 Celsius temperature test: <input type="text"
